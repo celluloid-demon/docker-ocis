@@ -47,6 +47,7 @@ services:
       NOTIFICATIONS_SMTP_SENDER: "${SMTP_SENDER:-oCIS notifications <notifications@${OCIS_DOMAIN:-ocis.owncloud.test}>}"
       NOTIFICATIONS_SMTP_USERNAME: "${SMTP_USERNAME}"
       NOTIFICATIONS_SMTP_INSECURE: "${SMTP_INSECURE}"
+      NOTIFICATIONS_SMTP_ENCRYPTION: "${SMTP_ENCRYPTION:-none}"
       # make the registry available to the app provider containers
       MICRO_REGISTRY_ADDRESS: 127.0.0.1:9233
       NATS_NATS_HOST: 0.0.0.0
