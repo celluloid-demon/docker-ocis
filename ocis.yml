@@ -59,6 +59,8 @@ services:
       COMPANION_DOMAIN: ${COMPANION_DOMAIN:-companion.owncloud.test}
       # enable to allow using the banned passwords list
       OCIS_PASSWORD_POLICY_BANNED_PASSWORDS_LIST: banned-password-list.txt
+    ports:
+      - "9200:9200"
 
     # <--- REMOVED --->
 
