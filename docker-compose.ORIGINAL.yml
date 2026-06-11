@@ -56,5 +56,5 @@ services:
 volumes:
   certs:
 
-# networks:   # [REMOVED]
-#   ocis-net: # [REMOVED]
+networks:
+  ocis-net:
